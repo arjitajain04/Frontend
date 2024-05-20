@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            /* width: 50%; */
+            background-color: black;
+        }
+        .header{
+            background-color: plum;
+            height: 10%;
+        }
+        .main{
+            height: 75%;
+            background-color:black;
+        }
+        .footer{
+            height: 10%;
+            background-color:plum;
+        }
+        .inner-main{
+            width: 45%;
+            height: 100%;
+            background-color: black;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+
+        }
+        #box1{
+            width: 20%;
+            background-color: seagreen;
+        }
+        #box2{
+            width: 39.6%;
+            background-color:blueviolet;
+            height: 50%;
+        }
+        /* #inner-lower{
+            width: 39%;
+            background-color:pink;
+            height: 50%;
+        } */
+        /* #box4{
+            width: 40%;
+            background-color: blueviolet;
+            height: 50%;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="main">
+            <div class="inner-main" id="box1">
+                <!-- <div class="upper" id="box2"></div> -->
+            </div>
+            <div class="inner-main" id="box2"></div>
+            <div class="inner-main" id="box2"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
+    
+</body>
+</html>
