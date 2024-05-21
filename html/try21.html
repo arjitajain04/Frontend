@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+                height: 585px;
+                width: 100%;
+                background-color:beige;
+                /* position: fixed; */
+        }
+        .box{
+            height: 500px;
+            width: 85%;
+            background-color: lightcoral;
+            /* top: 20px; */
+            position: relative;
+        }
+        #box1{
+            position: absolute;
+            top: 30px;
+            left: 100px;
+        }
+        .smallbox{
+            background-color: purple;
+            height: 45px;
+            width: 40%;
+            position: absolute;
+            right: 60px;
+            top: 70px;
+        }
+        .line{
+            position: absolute;
+            color: white;
+            font-size: 220%;
+            top:140px ;
+            left: 80px;
+        }
+        .para{
+            color: white;
+            position: absolute;
+            top: 200px;
+            left: 80px;
+            font-size: 100%;
+        }
+        .statement{
+            position: absolute;
+            font-size: 130%;
+            color: white;
+            font-family: sans-serif;
+            left: 30px;
+            top: 10px;
+        }
+        .whitebox{
+            background-color: aliceblue;
+            position: absolute;
+            height: 320px;
+            width: 400px;
+            right: 80px;
+            top: 135px;
+        }
+        .s1box{
+            background-color: black;
+            height: 50px;
+            width: 380px;
+            position: absolute;
+            top: 20px;
+            left: 10px;
+            color:white;
+            padding-left: 5px;
+            padding-top: 15px;
+        }
+        .s2box{
+            background-color: black;
+            height: 50px;
+            width: 380px;
+            position: absolute;
+            margin: 10px;
+            top: 80px;
+            color: white;
+            padding-left: 5px;
+            padding-top: 15px;
+        }
+        .s3box{
+            background-color: black;
+            height: 50px;
+            width: 380px;
+            position: absolute;
+            margin: 10px;
+            top: 150px;
+            color: white ;
+            padding-left: 5px;
+            padding-top: 17px;
+        }
+        .btm{
+            background-color:green;
+            position: absolute;
+            height: 60px;
+            width: 300px;
+            color: white;
+            top: 230px;
+            left: 50px;
+            font-size: 13px;
+        }
+        #s1box1{
+            position: absolute;
+            top: 140px;
+            right: 70px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box" id="box1">
+            <div class="line">Learn to code by watching others</div>
+            <div class="para"><p>See how experienced developers solve problems in real-time.</p>
+                <p>Watching scripted tutorials in great,but understanding how</p>
+                <p>developers think is invaluable</p></div>
+            <div class="smallbox">
+                <div class="statement"><p>Try it free 7 days than $20/mo.thereafter</p></div>
+            </div>
+            <div class="whitebox" id="s1box1">
+                <div class="s1box">Name</div>
+                <div class="s2box">Email-Id</div>
+                <div class="s3box">Password</div>
+                <div><button class="btm">CLAIM YOUR FREE TRIAL</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
